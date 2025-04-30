@@ -1,9 +1,9 @@
 
-📧 #Emailify - Your Smart Email App
+**📧** **Emailify - Your Smart Email App**
 
 Emailify is a sleek, modern email application designed to streamline your communication needs. Whether you're managing personal conversations or professional correspondence, Emailify provides a user-friendly and feature-rich platform to keep you connected.
 
-🌟 Key Features:
+**🌟Key Features:**
 Unified Inbox: Manage all your email accounts in one place.
 
 Smart Filters: Automatically organize your emails with customizable rules.
@@ -16,16 +16,16 @@ Customizable UI: Personalize the app to suit your preferences and workflow.
 
 Security Focused: End-to-end encryption ensures your emails stay private and secure.
 
-🛠️ Technologies Used:
-Frontend: [Framework or Library, e.g., React.js/Angular]
+**🛠️ Technologies Used:**
+Frontend: [Framework or Library, React.js]
 
-Backend: [Server-side technology, e.g., Node.js/ASP.NET]
+Backend: [Server-side technology, Node.js/ASP.NET]
 
-Database: [Database solution, e.g., PostgreSQL/MySQL]
+Database: [Database solution. PostgreSQL/MySQL]
 
 Email Protocols: Support for IMAP, SMTP, and POP3.
 
-🚀 Get Started:
+**🚀 Get Started:**
 Clone the repository:
 
 bash
@@ -44,9 +44,9 @@ bash
 Copy
 Edit
 npm start
-🤝 Contributions:
+**🤝 Contributions:**
 We welcome contributions! Check out our contributing guidelines to get started.
 
-📄 License:
+**📄 License:**
 This project is licensed under the MIT License.
 
