@@ -17,7 +17,7 @@ Customizable UI: Personalize the app to suit your preferences and workflow.
 Security Focused: End-to-end encryption ensures your emails stay private and secure.
 
 **🛠️ Technologies Used:**
-Frontend: [Framework or Library, React.js]
+Frontend: [Framework or Library, Typescrip, Javascript, React.js]
 
 Backend: [Server-side technology, Node.js/ASP.NET]
 
