@@ -1,0 +1,59 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 16rem;
+    background-color: white;
+    border-right: 1px solid #e5e7eb; /* gray-200 */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .sidebar__header {
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb; /* gray-200 */
+    font-weight: bold;
+    font-size: 1.125rem; /* text-lg */
+    color: #4f46e5; /* indigo-700 */
+  }
+  
+  .sidebar__list {
+    flex: 1;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar__list-item {
+    margin: 0;
+  }
+  
+  .sidebar__button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    color: #374151; /* gray-700 */
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .sidebar__button:hover {
+    background-color: #e0e7ff; /* indigo-100 */
+  }
+  
+  .sidebar__button--active {
+    background-color: #c7d2fe; /* indigo-200 */
+    font-weight: 600;
+    color: #1e3a8a; /* indigo-900 */
+  }
+  
+  .sidebar__folder-name {
+    margin-left: 0.5rem;
+  }
+  
