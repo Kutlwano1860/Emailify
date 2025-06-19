@@ -1,0 +1,86 @@
+.navbar {
+  background-color: #f3f2f1;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px; /* Add space for scrollbar */
+  flex-wrap: nowrap;
+}
+
+/* New mail button styles */
+.new-mail-btn {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  white-space: nowrap;
+  margin-right: 8px;
+}
+
+.new-mail-icon {
+  font-size: 16px;
+}
+
+/* Standard button styles */
+.nav-btn {
+  background: none;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* Button hover styles */
+.nav-btn:hover {
+  background-color: #e1e1e1;
+}
+
+/* Disabled button styles */
+.nav-btn:disabled {
+  color: #a1a1a1;
+  cursor: not-allowed;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+}
+
+/* Custom scrollbar for better UX */
+.navbar-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.navbar-container::-webkit-scrollbar-track {
+  background: #f3f2f1;
+}
+
+.navbar-container::-webkit-scrollbar-thumb {
+  background: #c8c8c8;
+  border-radius: 4px;
+}

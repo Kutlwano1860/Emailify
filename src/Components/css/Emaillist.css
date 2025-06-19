@@ -1,96 +1,151 @@
-.email-list {
-    overflow-y:auto;
-    height: 100%;
-    border-right: 1px solid #e5e7eb;
-  }
-  
-  .email-list__empty {
-    padding: 16px;
-    text-align: center;
-    color: #6b7280;
-  }
-  
-  .email-list__empty-icon {
-    font-size: 2rem;
-    color: #d1d5db;
-    margin-bottom: 8px;
-  }
-  
-  .email-list__item {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 12px 16px;
-    text-align: left;
-    border-bottom: 1px solid #f3f4f6;
-    background-color: white;
-    transition: background-color 0.2s ease;
-  }
-  
-  .email-list__item:hover {
-    background-color: #f9fafb;
-  }
-  
-  .email-list__item--selected {
-    background-color: #e0f2fe;
-  }
-  
-  .email-list__avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  
-  .email-list__content {
-    margin-left: 12px;
-    flex-grow: 1;
-    overflow: hidden;
-  }
-  
-  .email-list__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .email-list__sender {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: #1f2937;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .email-list__sender--read {
-    color: #6b7280;
-  }
-  
-  .email-list__sender--unread {
-    font-weight: 700;
-  }
-  
-  .email-list__date {
-    font-size: 0.75rem;
-    color: #9ca3af;
-  }
-  
-  .email-list__subject {
-    font-size: 0.875rem;
-    margin-top: 4px;
-    color: #374151;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .email-list__subject--read {
-    color: #6b7280;
-  }
-  
-  .email-list__subject--unread {
-    font-weight: 500;
-  }
+/* Email List Styles */
+/* .email-list {
+  overflow-y: auto;
+  height: 100%;
+  border-right: 1px solid #e5e7eb;
+  padding: 10px;
+}
 
-  
+.email-list__item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #f3f4f6;
+  background-color: white;
+  transition: background-color 0.3s, transform 0.3s ease;
+  border-radius: 4px;
+}
+
+.email-list__item:hover {
+  background-color: #f1f5f9;
+  transform: scale(1.02);
+} */
+
+/* .email-list__item--selected {
+  background-color: #e0f7fa; /* Light teal for selected email */
+/* } */ */
+
+/* .email-list__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.email-list__content {
+  margin-left: 16px;
+  flex-grow: 1;
+}
+
+.email-list__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-list__sender {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.email-list__date {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.email-list__subject {
+  font-size: 1rem;
+  margin-top: 4px;
+  color: #4b5563;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+.email-list {
+  width: 18rem;
+  background-color: white;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.email-list-header {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.email-list-header-item {
+  background-color: transparent;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.email-list-header-item.active {
+  border-bottom: 2px solid #0078d4;
+}
+
+.email-list-header-filter {
+  margin-left: auto;
+  font-size: 1.125rem;
+}
+
+.email-list-body {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.email-list-date {
+  font-size: 0.625rem;
+  color: #888;
+  padding: 0.25rem 1rem;
+}
+
+.email-item {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.email-item-image {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.email-item-content {
+  flex-grow: 1;
+  margin-left: 1rem;
+  min-width: 0;
+}
+
+.email-item-sender {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.email-item-subject,
+.email-item-snippet {
+  font-size: 0.625rem;
+  color: #666;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.email-item-time {
+  font-size: 0.625rem;
+  color: #999;
+}
