@@ -71,7 +71,7 @@ export const App: React.FC = () => {
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__title">Malio</h1>
+        <h1 className="app__title">Emalify</h1>
         <input
           type="text"
           className="app__search"

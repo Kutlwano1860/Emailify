@@ -18,7 +18,7 @@ export const ComposeEmail: React.FC<ComposeEmailProps> = ({
   const [cc, setCc] = useState('');
   const [lastSaved, setLastSaved] = useState<string | null>(null);
   const [showBcc, setShowBcc] = useState(false);
-
+  
   // Auto-save draft every 30 seconds
   useEffect(() => {
     const autoSaveInterval = setInterval(() => {
